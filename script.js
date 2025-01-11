@@ -1,12 +1,10 @@
 document.getElementById('taskForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    // Obter os valores do formulário
     const taskTitle = document.getElementById('taskTitle').value;
     const taskDescription = document.getElementById('taskDescription').value;
     const taskPriority = document.getElementById('taskPriority').value;
 
-    // Criar um novo item de tarefa
     const taskItem = document.createElement('li');
     taskItem.classList.add('task-item', taskPriority);
 
@@ -21,10 +19,8 @@ document.getElementById('taskForm').addEventListener('submit', function(event) {
         </div>
     `;
 
-    // Adicionar a tarefa à lista
     document.getElementById('taskList').appendChild(taskItem);
 
-    // Adicionar funcionalidade aos botões de concluir e deletar
     taskItem.querySelector('.complete-btn').addEventListener('click', function() {
         taskItem.classList.toggle('completed');
     });
@@ -33,6 +29,5 @@ document.getElementById('taskForm').addEventListener('submit', function(event) {
         taskItem.remove();
     });
 
-    // Limpar o formulário
     document.getElementById('taskForm').reset();
 });
