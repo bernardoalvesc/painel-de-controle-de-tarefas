@@ -8,7 +8,6 @@ Este projeto é uma aplicação web simples para gerenciar tarefas, permitindo q
 
 - Sobre
 - Tecnologias Utilizadas
-- Estrutura do Projeto
 - Funcionalidades
 - Contato
 
