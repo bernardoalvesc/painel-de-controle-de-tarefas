@@ -1,44 +1,76 @@
-# 📝 Painel de Controle de Tarefas
+# ✅ Painel de Controle de Tarefas
 
-Este projeto é uma aplicação web simples para gerenciar tarefas, permitindo que os usuários adicionem, editem e excluam tarefas conforme necessário.
-
----
-
-## 📋 Índice
-
-- Sobre
-- Tecnologias Utilizadas
-- Funcionalidades
-- Contato
+Aplicação web para gerenciar tarefas (to-do list) com funcionalidades de adição, marcação de concluído e remoção. Desenvolvida com HTML, CSS e JavaScript puro, com foco em simplicidade e aprendizado dos conceitos fundamentais do DOM.
 
 ---
 
-## 🧐 Sobre
+## 📦 Tecnologias utilizadas
 
-O Painel de Controle de Tarefas foi desenvolvido para auxiliar no gerenciamento eficiente de tarefas diárias, proporcionando uma interface intuitiva para organização pessoal ou profissional.
+### Frontend
+
+- **HTML5**: estrutura da aplicação
+- **CSS3**: estilização customizada para layout responsivo e agradável
+- **JavaScript ES6+**: lógica para adicionar, marcar e remover tarefas, manipulando diretamente o DOM
+
+### Deploy & Versionamento
+
+- **GitHub Pages** ou **Vercel**: para hospedar o site staticamente
+- **GitHub**: versionamento do projeto
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🗂️ Estrutura do projeto
 
-- **Linguagens:** HTML, CSS, JavaScript
-- **Bibliotecas:** Nenhuma biblioteca externa foi utilizada; o projeto é implementado com JavaScript puro.
+```
+painel-de-controle-de-tarefas/
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
+```
 
 ---
 
-## ✅ Funcionalidades
-- **Adicionar tarefas:** Insira novas tarefas com títulos e descrições para organizar suas atividades.
-- **Editar tarefas:** Atualize informações de uma tarefa já cadastrada diretamente na interface.
-- **Excluir tarefas:** Remova tarefas que não são mais necessárias com um clique.
-- **Marcar como concluído:** Mantenha o controle visual das tarefas finalizadas.
-- **Ordenação dinâmica:** Organize as tarefas por prioridade, data ou status.
-- **Responsividade:** Interface adaptada para dispositivos móveis e desktops.
-- **Armazenamento Local:** Salve suas tarefas no navegador para acessar depois, mesmo sem conexão com a internet.
+## ⚙️ Como rodar localmente
+
+### 🧪 Pré-requisitos
+
+- Navegador moderno (Chrome, Firefox, Edge, etc.)
+
+---
+
+### ▶️ Executando o projeto
+
+```bash
+# Basta abrir o arquivo index.html no navegador
+```
+
+Ou suba em um servidor local simples:
+
+```bash
+npx serve
+```
+
+---
+
+## 🧠 Decisões de arquitetura
+
+- **HTML + CSS + JS puro**: para fixar conceitos fundamentais sem frameworks
+- **Manipulação direta do DOM**: adiciona, marca e remove tarefas em tempo real
+- **Código simples e comentado**: facilita estudos e futuras melhorias
+
+---
+
+## 📄 Licença
+
+Projeto desenvolvido por Bernardo Alves. Livre para fins educacionais.
+
 ---
 
 ## 👤 Contato
+
 Sinta-se à vontade para entrar em contato comigo:
 
-- **LinkedIn:** linkedin.com/in/bernardoalvesdev
+- **LinkedIn:** [linkedin.com/in/bernardoalvesdev](https://linkedin.com/in/bernardoalvesdev)
 - **E-mail:** bernardoalvesdev@gmail.com
-- **Portfólio:** https://www.bernardoalvesdev.com.br
+- **Portfólio:** [https://www.bernardoalvesdev.com.br](https://www.bernardoalvesdev.com.br)
